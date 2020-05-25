@@ -1,9 +1,18 @@
-<html>
+<html ng-app="DIApp">
     <head>
         <title>My first application</title>
+        <script src="angular.min.js"></script>
+        <script src="app.js"></script>
     </head>
     <body>
-        <h1>Hello Git!!</h1>
-        <h3>My First Browser Sync Project</h3>
+        <h1>Dependency Opreation in JS nd AngJS</h1>
+
+        <div ng-controller="Controller">
+            <input type="text" ng-model="name" ng-blur="ctoupper();"> 
+
+        </div>
+        
+
+
     </body>
 </html>
