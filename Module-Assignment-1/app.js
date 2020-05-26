@@ -14,7 +14,7 @@
 
         $scope.namefunc = function (myName) {
          
-            console.log(myName);
+    
 
             $filter.splitfunction = function (myName){
 
@@ -27,7 +27,7 @@
 
             var array = $filter.splitfunction(myName);
 
-            console.log(array);
+       
            
 
             if(array.length<=3){
